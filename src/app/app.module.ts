@@ -12,6 +12,7 @@ import { ProjectsComponent } from './MyComponents/projects/projects.component';
 import { SkillsComponent } from './MyComponents/skills/skills.component';
 import { ContactMeComponent } from './MyComponents/contact-me/contact-me.component';
 import { SideBarComponent } from './MyComponents/side-bar/side-bar.component';
+import { LoadingScreenComponent } from './MyComponents/loading-screen/loading-screen.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SideBarComponent } from './MyComponents/side-bar/side-bar.component';
     ProjectsComponent,
     SkillsComponent,
     ContactMeComponent,
-    SideBarComponent
+    SideBarComponent,
+    LoadingScreenComponent
   ],
   imports: [
     BrowserModule,
