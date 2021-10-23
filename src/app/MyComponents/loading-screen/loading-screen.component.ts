@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-declare var jQuery: any;
 
 @Component({
   selector: 'app-loading-screen',
@@ -11,11 +10,6 @@ export class LoadingScreenComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    (function ($) {
-    $(window).load(function() {
-      $('#loading').hide();
-    });
-  })(jQuery);
+    
   }
-
 }
