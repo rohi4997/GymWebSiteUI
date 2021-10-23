@@ -1,0 +1,48 @@
+#html{
+    animation: html 3s 1;
+}
+#node{
+    animation: node 3s 1;
+}
+#bootstrap{
+    animation: bootstrap 3s 1;
+}
+#react{
+    animation: react 3s 1;
+}
+
+@keyframes html{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 25%;
+    }
+}
+
+@keyframes node{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes bootstrap{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
+}
+
+@keyframes react{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 50%;
+    }
+}

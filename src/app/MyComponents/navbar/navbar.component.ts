@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-navbar',
@@ -34,7 +35,7 @@ export class NavbarComponent implements OnInit {
 
   toContact()
   {
-    document.getElementById("contact")?.scrollIntoView();
+    document.getElementById("contact")?.scrollIntoView({behavior:"smooth"});
   }
 
 }
