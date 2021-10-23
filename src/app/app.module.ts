@@ -13,7 +13,6 @@ import { SkillsComponent } from './MyComponents/skills/skills.component';
 import { ContactMeComponent } from './MyComponents/contact-me/contact-me.component';
 import { SideBarComponent } from './MyComponents/side-bar/side-bar.component';
 import { LoadingScreenComponent } from './MyComponents/loading-screen/loading-screen.component';
-import { LoaderComponent } from './Mycomponents/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,7 @@ import { LoaderComponent } from './Mycomponents/loader/loader.component';
     ContactMeComponent,
     SideBarComponent,
     LoadingScreenComponent,
-    LoaderComponent
+    
   ],
   imports: [
     BrowserModule,
