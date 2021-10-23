@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() { 
+    
   }
 
+  ngOnInit(): void {
+  //   $(document).ready(function(){
+
+  //     $("instagram").click(function(){
+  //         $("#instagram").hide();
+  //     });
+  // });
+  }
+
+  toContact()
+  {
+    document.getElementById("contact")?.scrollIntoView();
+  }
+
+  
 }
