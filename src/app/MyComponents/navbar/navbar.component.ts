@@ -10,10 +10,31 @@ export class NavbarComponent implements OnInit {
   constructor() { }
   
 
-  ngOnInit(): void {
-    
+  ngOnInit(): void {}
+
+  toHome()
+  {
+    document.getElementById("home")?.scrollIntoView();
   }
 
-  
+  toAbout()
+  {
+    document.getElementById("about")?.scrollIntoView();
+  }
+
+  toSkills()
+  {
+    document.getElementById("skills")?.scrollIntoView();
+  }
+
+  toProjects()
+  {
+    document.getElementById("projects")?.scrollIntoView();
+  }
+
+  toContact()
+  {
+    document.getElementById("contact")?.scrollIntoView();
+  }
 
 }

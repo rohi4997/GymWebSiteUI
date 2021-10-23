@@ -15,20 +15,20 @@
          
         </ul>
         <div class="d-flex navbar-nav  mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item" (click)="toHome()" [routerLink]="['/home']" routerLinkActive="router-link-active" >
+            <a class="nav-link active" aria-current="page" >Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+          <li class="nav-item" (click)="toAbout()">
+            <a class="nav-link" >About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Projects</a>
+          <li class="nav-item" (click)="toProjects()">
+            <a class="nav-link " >Projects</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Skills</a>
+          <li class="nav-item" (click)="toSkills()">
+            <a class="nav-link " >Skills</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link " href="#">Contact</a>
+          <li class="nav-item " (click)="toContact()">
+            <a class="nav-link " >Contact</a>
           </li>
           <button class="btn btn-outline-success btn-sm nav-item" >Search</button>
           
