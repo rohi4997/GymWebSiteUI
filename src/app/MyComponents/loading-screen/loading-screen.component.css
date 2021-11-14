@@ -1,15 +1,12 @@
-*{
+#load{
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100%;
     box-sizing: border-box;
-}
-
-html{
     font-size: 10px;
-}
-
-body{
     background-color: #0d161f;
+    display: block;
 }
 
 .loader{
@@ -26,9 +23,9 @@ body{
     height: 100%;
     border: 1rem solid #162534;
     border-radius: 50%;
-    border-color: #09f;
+    border-top-color: #09f;
     border-bottom-color: #09f;
-    animation: rotate 5s linear infinite;
+    animation: rotate 3s linear infinite;
 }
 
 @keyframes rotate{

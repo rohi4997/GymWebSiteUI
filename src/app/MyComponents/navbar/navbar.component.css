@@ -1,0 +1,19 @@
+#anmm{
+    animation: text 3s 1;
+}
+@keyframes text{
+    30%{
+        margin-bottom: -40px;
+       padding-bottom: 40px;
+    }
+    /* 30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    } */
+    50%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+        padding-bottom: 40px;
+    }
+
+}

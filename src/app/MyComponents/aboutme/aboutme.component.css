@@ -1,0 +1,11 @@
+#about{
+    height: auto ; width: 100%; background: #353D47;
+}
+
+#about-me{
+    height: auto; width: 50%; background: #1A202C ; border-radius: 5px
+}
+
+#languages{
+    height: auto; width: 40%; background: #1A202C; border-radius: 5px;
+}

@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-#loading {
+/* #loading {
     position: fixed;
     display: block;
     width: 100%;
@@ -17,4 +17,66 @@
     top: 100px;
     left: 240px;
     z-index: 100;
+  } */
+
+  /* Disable aos animation delay on mobile devices */
+/* @media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
   }
+}
+
+@media (max-width: 992px) {
+  #home {
+    font-size: 10px;
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: -300px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact {
+    margin-left: 100px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-menu a, .nav-menu a:focus {
+    width: 56px;
+  }}
+
+@media (min-width: 992px) {
+  #hero {
+    padding-left: 160px;
+  }}
+
+@media (max-width: 992px) {
+  #hero {
+    text-align: center;
+  }}
+
+@media (min-width: 992px) {
+  .testimonials .testimonial-item p {
+    width: 80%;
+  }
+} */
+@media only screen and (max-width:300px) {
+  #home {
+      background: red;
+  }}
+@media only screen and (min-width: 300px) and (max-width:500px) {
+  #home {
+      background: blue;
+  }}
+@media (min-width: 500px) and (max-width:800px) {
+  #home {
+      background: yellow;
+  }}
+@media (min-width: 800px) {
+  #home {
+      background: green;
+  }
+}

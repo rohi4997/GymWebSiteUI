@@ -1,9 +1,11 @@
 <div class="sticky-top">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="../../../assets/img/portfolio/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+    <div class="container-fluid" id="anmm">
+      <a class="navbar-brand" href="">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/videocall-993ca.appspot.com/o/iPortfolio%2Flogo.jpg?alt=media&token=cff70cbd-7774-41b5-ad62-adf6c52a3ab0"
+          width="30" height="30" class="d-inline-block align-top" alt="">
         Rohit
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -12,26 +14,26 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-         
+
         </ul>
-        <div class="d-flex navbar-nav  mb-2 mb-lg-0">
+        <div class="d-flex navbar-nav  mb-2 mb-lg-0" style="cursor: pointer;" data-aos="fade-in">
           <li class="nav-item" (click)="toHome()" [routerLink]="['/home']" routerLinkActive="router-link-active" >
-            <a class="nav-link active" aria-current="page" >Home</a>
+            <a class="nav-link active" aria-current="page">Home</a>
           </li>
-          <li class="nav-item" (click)="toAbout()">
-            <a class="nav-link" >About</a>
+          <li class="nav-item" (click)="toAbout()" style="margin-left: 10px;">
+            <a class="nav-link">About</a>
           </li>
-          <li class="nav-item" (click)="toProjects()">
-            <a class="nav-link " >Projects</a>
+          <li class="nav-item" (click)="toProjects()" style="margin-left: 10px;">
+            <a class="nav-link ">Projects</a>
           </li>
-          <li class="nav-item" (click)="toSkills()">
-            <a class="nav-link " >Skills</a>
+          <li class="nav-item" (click)="toSkills()" style="margin-left: 10px;">
+            <a class="nav-link ">Skills</a>
           </li>
-          <li class="nav-item " (click)="toContact()">
-            <a class="nav-link " >Contact</a>
+          <li class="nav-item " (click)="toContact()" style="margin-left: 10px;">
+            <a class="nav-link ">Contact</a>
           </li>
-          <button class="btn btn-outline-success btn-sm nav-item" >Search</button>
-          
+          <!-- <button class="btn btn-outline-success btn-sm nav-item">Search</button> -->
+
         </div>
       </div>
     </div>

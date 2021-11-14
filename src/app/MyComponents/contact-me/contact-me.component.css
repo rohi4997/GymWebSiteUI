@@ -1,0 +1,25 @@
+#my-contact{
+    height: auto; width: 40%; background: #1A202C;
+    border-radius: 5px;
+}
+#contact-form{
+    height: auto; width: 40%; background: #1A202C;
+    border-radius: 5px;
+    
+}
+
+@media (max-width:768px)
+{
+    #my-contact{
+        width: 70%;
+    }
+    #contact-form{
+        width: 70%;
+       
+    }
+}
+
+.formsubmit{
+    border-radius: 4px;
+    margin-left: 10px;
+}

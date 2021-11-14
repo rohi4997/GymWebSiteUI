@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import * as AOS from 'aos'
+import 'aos/dist/aos.css';
 
 @Component({
   selector: 'app-navbar',
@@ -11,7 +12,7 @@ export class NavbarComponent implements OnInit {
   constructor() { }
   
 
-  ngOnInit(): void {}
+  ngOnInit(): void { AOS.init({duration: 2000});}
 
   toHome()
   {

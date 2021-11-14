@@ -1,41 +1,49 @@
-<section style="width: 100%; height: 100vh; background: #505357;" id="contact">
+<section style="width: 100%; height: auto; background: #505357;" id="contact">
     <div class="container pt-5 " style="color: white;">
         <h1 class="text-center py-5" style="color: white;">Contact</h1>
         <div class="row">
-            <div class="col-8 pt-3" style="height: 70vh; width: 40%; background: #1A202C;">
-                <h4 class="text-center">My Contact</h4>
-                <br>
-                <p>
+            <div class="col pt-3 mb-5 mx-5" data-aos="zoom-in-right" id="my-contact">
+                <h4 class="" style="margin-left: 15px;">My Contact</h4>
+              
+                <hr>
+                <p style="margin-left: 15px;">
                     Name : Rohit kumar dhaker<br>
 
-                    Phone no.: +91-7425004997<br>
-                    
-                    City : Kota<br>
-                    
-                    State : Rajasthan<br>
-                    
-                    Country : India<br>
-                    
-                    Email : rohitrkd4997@gmail.com<br>
-                    Website : www.rohitdhaker.co.in<br>
-                    
-                </p>
-            </div>
-            <div class="col-4 mx-5 pt-3" style="height: 70vh; width: 40%; background: #1A202C;">
-                <h4 class="text-center">Contact Me</h4>
-                <br>
+                    Phone no.: +91-7*****4997<br>
 
-                <form class="needs-validation" novalidate>
+                    City : Kota<br>
+
+                    State : Rajasthan<br>
+
+                    Country : India<br>
+
+                    Email : rohitrkd4997@gmail.com<br>
+                    Website : www.rohi**haker.co.in<br>
+
+
+
+                </p>
+                <!-- <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_9unpvaft.json"
+                        background="transparent" speed="1" style="width: 300px; height: 300px;" loop controls autoplay>
+                    </lottie-player> -->
+            </div>
+            <div class="col mx-5 mb-5 p-3" id="contact-form" data-aos="zoom-in-left">
+                <h4 class="" style="margin-left: 15px;">Contact Me</h4>
+               
+
+                <hr>
+            
+                <!-- <form class="needs-validation" action="https://formsubmit.co/rohitrkd4997@gmail.com" method="POST">
                     <div class="form-row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-6 mb-3">
                             <label for="validationCustom01">Your name</label>
                             <input type="text" class="form-control" id="validationCustom01" value="" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
-                        
-                        <div class="col-md-4 mb-3">
+
+                        <div class="col-md-6 mb-3">
                             <label for="validationCustomUsername">Email</label>
                             <div class="input-group">
                                 <div class="input-group-prepend">
@@ -57,12 +65,10 @@
                                 Please provide a valid city.
                             </div>
                         </div>
-                        
-                        <div class="col-md-3 mb-3">
-                            <label for="validationCustom05">Message</label>
-                            
-                            <textarea type="text">
 
+                        <div class="col-md-3 mb-3">
+                            <label for="validationCustom05">Message</label> <br>
+                            <textarea type="text">
                             </textarea>
                             <div class="invalid-feedback">
                                 Please provide a valid zip.
@@ -81,33 +87,15 @@
                         </div>
                     </div>
                     <button class="btn btn-primary" type="submit">Submit form</button>
+                </form> -->
+                <form action="https://formsubmit.co/rohitrkd4997@gmail.com" method="POST" >
+                    <input type="text" name="Name" required class="mb-3 formsubmit p-2" placeholder="Your Name"> <br>
+                    <input type="email" name="Email" required class="mb-3 formsubmit p-2" placeholder="Your Email"> <br>
+                    <input type="text" name="City" required class="mb-3 formsubmit p-2" placeholder="City"> <br>
+                    <textarea type="text" name="Message" required class="mb-3 formsubmit p-2" placeholder="Message"></textarea> <br>
+                    <button type="submit" class="btn btn-primary" style="margin-left: 15px;">Send</button>
                 </form>
-
-                <script>
-                    // Example starter JavaScript for disabling form submissions if there are invalid fields
-                    (function () {
-                        'use strict';
-                        window.addEventListener('load', function () {
-                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                            var forms = document.getElementsByClassName('needs-validation');
-                            // Loop over them and prevent submission
-                            var validation = Array.prototype.filter.call(forms, function (form) {
-                                form.addEventListener('submit', function (event) {
-                                    if (form.checkValidity() === false) {
-                                        event.preventDefault();
-                                        event.stopPropagation();
-                                    }
-                                    form.classList.add('was-validated');
-                                }, false);
-                            });
-                        }, false);
-                    })();
-                </script>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-
     </div>
 </section>
