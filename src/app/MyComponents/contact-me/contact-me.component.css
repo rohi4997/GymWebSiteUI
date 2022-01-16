@@ -1,9 +1,9 @@
 #my-contact{
-    height: auto; width: 40%; background: #1A202C;
+    height: auto; width: 40%; background: rgba(46, 42, 42, 0.342);
     border-radius: 5px;
 }
 #contact-form{
-    height: auto; width: 40%; background: #1A202C;
+    height: auto; width: 40%; background: rgba(46, 42, 42, 0.342);
     border-radius: 5px;
     
 }

@@ -1,0 +1,25 @@
+
+.your-div {
+    position: relative;
+}
+
+.your-div span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+   
+}
+
+#home{
+    width:auto; 
+    height: 60vh; 
+    background-image: url(https://images.unsplash.com/photo-1612090295965-e506249ccecc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1824&q=80);
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /*background-size: cover; /* Resize the background image to cover the entire container */
+}

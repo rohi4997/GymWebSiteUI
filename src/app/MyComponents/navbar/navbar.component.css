@@ -17,3 +17,16 @@
     }
 
 }
+
+.subnav{
+    font-size: small;
+}
+/* .subnav::before
+{
+    content: url(./../../../favicon.ico);
+} */
+
+
+.lii{
+    color: white;
+}

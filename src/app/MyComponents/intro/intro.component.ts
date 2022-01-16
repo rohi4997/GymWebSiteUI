@@ -22,8 +22,7 @@ export class IntroComponent implements OnInit {
   //     });
   // });
 
-  AOS.init({duration: 2000,
-    offset: 100})
+  AOS.init({duration: 4000})
 
   }
 

@@ -1,41 +1,110 @@
-<div class="sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-warning" style="background-color: yellow;">
+  <div class="container-fluid d-flex justify-content-center">
+    <h6 class="px-5 subnav"><i class="fa fa-phone" aria-hidden="true"></i> +918875565063 </h6>
+    <h6 class="px-5 subnav text-center"><i class="fa fa-map-marker" aria-hidden="true"></i> Asquare Gym And Fitness Center, Bundi Road Bijoliya, Bhilwara, 311602 </h6>
+    <h6 class="px-5 subnav"><i class="fa fa-envelope"></i> asquare5063@gmail.com</h6>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid" id="anmm">
-      <a class="navbar-brand" href="">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/videocall-993ca.appspot.com/o/iPortfolio%2Flogo.jpg?alt=media&token=cff70cbd-7774-41b5-ad62-adf6c52a3ab0"
-          width="30" height="30" class="d-inline-block align-top" alt="">
-        Rohit
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+  </div>
+</nav>
 
-        </ul>
-        <div class="d-flex navbar-nav  mb-2 mb-lg-0" style="cursor: pointer;" data-aos="fade-in">
-          <li class="nav-item" (click)="toHome()" [routerLink]="['/home']" routerLinkActive="router-link-active" >
-            <a class="nav-link active" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item" (click)="toAbout()" style="margin-left: 10px;">
-            <a class="nav-link">About</a>
-          </li>
-          <li class="nav-item" (click)="toProjects()" style="margin-left: 10px;">
-            <a class="nav-link ">Projects</a>
-          </li>
-          <li class="nav-item" (click)="toSkills()" style="margin-left: 10px;">
-            <a class="nav-link ">Skills</a>
-          </li>
-          <li class="nav-item " (click)="toContact()" style="margin-left: 10px;">
-            <a class="nav-link ">Contact</a>
-          </li>
-          <!-- <button class="btn btn-outline-success btn-sm nav-item">Search</button> -->
 
-        </div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/"><img src="favicon.ico" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="gallery" routerLinkActive="active">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="gymfacilities" routerLinkActive="active">Gym Facilities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="gymfee" routerLinkActive="active">Gym Fee</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="personaltraining" routerLinkActive="active">Personal Training</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="suppliments" routerLinkActive="active">Suppliments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="sportswear" routerLinkActive="active">Sports Wear</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="dietplan" routerLinkActive="active">Diet Plan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="gymequipments" routerLinkActive="active">Gym Equipments</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active bg-dark"  id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false" routerLinkActive="active">
+            Get Started
+          </a>
+          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item bg-dark lii" routerLink="ourgyms" routerLinkActive="active">Our Gyms</a></li>
+            <li><a class="dropdown-item bg-dark lii" routerLink="offers" routerLinkActive="active">Offers</a></li>
+            <li><a class="dropdown-item bg-dark lii" routerLink="events" routerLinkActive="active">Our Events</a></li>
+          </ul>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="contact" routerLinkActive="active">Contact</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link active" routerLink="feedbacks" routerLinkActive="active">Feedbacks</a>
+        </li> -->
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-outline-warning px-2 mx-2" type="button" id="liveToastBtn">Free Trial</button>
+        <button class="btn btn-outline-warning px-2" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Join Now</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Fill your details here</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="https://formsubmit.co/asquare5063@gmail.com" method="POST" >
+          <input type="text" name="Name" required class="mb-3 formsubmit p-2" placeholder="Your Name"> <br>
+          <input type="email" name="Email" required class="mb-3 formsubmit p-2" placeholder="Your Email"> <br>
+          <input type="text" name="Mobile" required class="mb-3 formsubmit p-2" placeholder="Your Mobile"> <br>
+          <input type="text" name="Town/Village" required  class="mb-3 formsubmit p-2" placeholder="Town/Village"> <br>
+          <input type="text" name="name" required  class="mb-3 formsubmit p-2" placeholder="plan(Cardio/without cardio)"> <br>
+          <input type="text" name="name" required  class="mb-3 formsubmit p-2" placeholder="Your text"> <br>
+          <input type="text" name="name" required  class="mb-3 formsubmit p-2" placeholder="Your text"> <br>
+          <input type="text" name="name" required  class="mb-3 formsubmit p-2" placeholder="Your text"> <br>
+          <input type="text" name="name" required  class="mb-3 formsubmit p-2" placeholder="Your text"> <br>
+          <input type="text" name="name" required  class="mb-3 formsubmit p-2" placeholder="Your text"> <br>
+          <input type="text" name="name" required  class="mb-3 formsubmit p-2" placeholder="Your text"> <br>
+          <input type="text" name="name" required  class="mb-3 formsubmit p-2" placeholder="Your text"> <br>
+          <input type="hidden" name="_next" value="https://asquaregym.netlify.app/">
+          <input type="hidden" name="_captcha" value="false">
+          <button type="submit" class="btn btn-warning" style="margin-left: 15px;">Join</button>
+      </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
-  </nav>
+  </div>
 </div>
+
+
+

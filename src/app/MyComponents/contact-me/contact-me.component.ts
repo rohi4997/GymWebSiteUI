@@ -41,4 +41,12 @@ export class ContactMeComponent implements OnInit {
 //         });
 //     }, false);
 // })();
+
+myFunction()
+{
+  setTimeout(function(){
+    alert("Submitted!"); 
+ }, 2000);//wait 2 seconds
+}
+
 }

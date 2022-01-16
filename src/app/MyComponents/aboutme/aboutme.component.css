@@ -1,11 +1,11 @@
 #about{
-    height: auto ; width: 100%; background: #353D47;
+    height: auto ; width: 100%; background: #ecedee;
 }
 
 #about-me{
-    height: auto; width: 50%; background: #1A202C ; border-radius: 5px
+    height: auto; width: 50%; background: #e4e6e9 ; border-radius: 5px
 }
 
 #languages{
-    height: auto; width: 40%; background: #1A202C; border-radius: 5px;
+    height: auto; width: 40%; background: #e0e1e4; border-radius: 5px; color:  rgb(12, 11, 14);
 }
