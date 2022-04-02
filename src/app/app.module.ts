@@ -27,6 +27,7 @@ import { GymequipmentsComponent } from './Routing/gymequipments/gymequipments.co
 import { FeedbackComponent } from './Routing/feedback/feedback.component';
 import { ProjectsComponent } from './MyComponents/projects/projects.component';
 import { ContactComponent } from './Routing/contact/contact.component';
+import { MarqueComponent } from './MyComponents/marque/marque.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { ContactComponent } from './Routing/contact/contact.component';
     GymequipmentsComponent,
     FeedbackComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    MarqueComponent
     
   ],
   imports: [
